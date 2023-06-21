@@ -9,9 +9,5 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule],
 })
 export class HomePage {
-  resultado: number = 0;
-
-  somar(valor1: number, valor2: number) {
-    this.resultado = valor1 + valor2;
-  }
+  constructor() {}
 }
