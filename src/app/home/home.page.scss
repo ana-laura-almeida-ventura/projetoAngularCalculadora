@@ -1,27 +1,8 @@
-#container {
-  text-align: center;
+ion-toolbar {
+  --background:rgb(2,0,36);
+  --background: linear-gradient(90deg, rgba(2,0,36,1) 0%. regba(121,110,9,1) 0%, rgba(9,76,116,1) 0%, regba(0,0,0,1) 100%);
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+  & ion-title {
+    --color: red;
+  }
 }
